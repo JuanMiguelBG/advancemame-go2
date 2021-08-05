@@ -1,0 +1,64 @@
+# upload
+makepush.sh
+makeftp.sh
+
+# autotools
+Makefile
+autom4te.cache/
+config.guess
+config.h
+config.h.in
+config.log
+config.status
+config.sub
+configure
+install-sh
+missing
+stamp-h1
+advance/lib/config.h
+advance/lib/config.hin~
+
+# projects
+*.dst
+*.epr
+
+# archive
+archive/
+*.zip
+*.tar.gz
+*.deb
+
+# objects
+advcfg
+advj
+advk
+advm
+advmame
+advmamed
+advmess
+advmessd
+advmenu
+advmenud
+advs
+advv
+*.exe
+*.o
+
+# generated
+*.dif
+
+# generated doc
+doc/*.1
+doc/*.hh
+doc/*.html
+doc/*.txt
+
+# extra dirs
+reference/
+resource/
+contrib/
+obj/
+*.ori/
+*.complete/
+www/
+
