@@ -1099,7 +1099,7 @@ void target_signal(int signum, void* void_info, void* void_context)
 		exit(EXIT_FAILURE);
 	} else if (signum == SIGTERM) {
 		fprintf(stderr, "Terminated\n\r");
-		exit(EXIT_FAILURE);
+		exit(0);
 	} else if (signum == SIGALRM) {
 		fprintf(stderr, "Alarm\n\r");
 		exit(EXIT_FAILURE);
